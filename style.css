@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+
+.section{
+  background-color: #343541;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 20vw;
+    background-color: #202123;
+    padding: 10px 13px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 80vw;
+    height: 100vh;
+}
+
+.title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.container-content{
+    width: 800px;
+    margin: 60px auto;
+    height: 400px;
+}
+
+.card{
+    width: 230px;
+    padding: 14px;
+    background-color: #565869;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    background-color: #202123;
+    cursor: pointer;
+}
+
+.container-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+    color: #fff;
+}
+
+.features{
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+.input_container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.input{
+    width: 100%;
+    border-radius: 12px;
+    background-color: #40414f;
+    border: none;
+    padding: 16px;
+    box-sizing: border-box;
+     font-size: 15px;
+     color: white;
+     
+}
+
+input:focus{
+    outline: none;
+    border: none;
+}
+
+.new-btn{
+   border: 1px solid gray;
+   border-radius: 6px;
+   padding: 12px; 
+   display: flex;
+   align-items: center;
+   background-color: #202123;
+   color: white;
+   gap: 10px;
+   width: 80%;
+}
+
+.new-btn p{
+    margin: 0;
+}
+
+.btn-icon{
+    height: 15px;
+}
+
+.hide-btn{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 12px; 
+    align-items: center;
+    background-color: #202123;
+    color: white;
+    gap: 10px;
+    width: 20%;
+}
+
+.btn-flex{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.place{
+    position: absolute;
+    right: 160px;
+    bottom: 65px;
+    
+}
+
+h3{
+    color: gray;
+    font-size: 12px;
+
+}
+
+.btn-flex p{
+    margin: 0;
+    color: white;
+}
+
+.btn-flex svg{
+    margin-top: 4px;
+}
+
+.sidebar hr{
+    border-color: gray;
+    position: fixed;
+    bottom: 50px;
+    width: 18%;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 10px;
+}
+
+.bottom svg{
+    margin: 0;
+}
+
+.new{
+    position: fixed;
+    left: 210px;
+    border-radius: 6px;
+    border: none;
+    padding: 4px 6px;
+}
+
+.new:hover{
+    transform: scale(1.1);
+}
